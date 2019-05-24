@@ -44,7 +44,6 @@ body {
   margin-bottom: 80px;
   position: relative; }
 
-/* line 151, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
 .section_tittle h1:after {
   position: absolute;
   left: 0;
@@ -55,13 +54,11 @@ body {
   bottom: -27px; }
 
 @media (max-width: 576px) {
-  /* line 144, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
   .section_tittle h1 {
     font-size: 25px;
     line-height: 35px; } }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 144, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
   .section_tittle h1 {
     font-size: 25px;
     line-height: 35px; } }
