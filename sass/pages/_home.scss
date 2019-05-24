@@ -1,9 +1,19 @@
 #team {
     padding: 12rem 0 25rem 0;
     background-color: #fff;
-    
+
 }
 
-#stats{
+#stats {
     padding: 15rem 0 12rem 0;
+}
+
+.earth {
+    padding: 12rem 0;
+    height: 90rem;
+    position: relative;
+    background-image: url(../images/home/earth/bg.jpg);
+    background-size: cover;
+    animation: animateEarth 6s linear infinite;
+    -webkit-animation: animateBg 60s linear infinite;
 }
