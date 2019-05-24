@@ -535,7 +535,7 @@ stats
   color: #fff; }
 
 .stats-item {
-  background: rgba(61, 68, 68, 0.6);
+  background: linear-gradient(#1d2e4a, #1d2e4a), url(../images/home/passion/patten_bg.webp);
   border-radius: 4px;
   min-height: 170px;
   padding: 25px 50px;
