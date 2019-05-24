@@ -1,0 +1,32 @@
+.btn_1 {
+    padding: 7px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #cfb579;
+    color: #fff;
+    border: 2px solid #cfb579;
+    display: inline-block;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn_1:hover {
+    background-color: #d8b25a;
+    border: 2px solid #d8b25a;
+    color: #fff;
+}
+
+.btn_1:hover a {
+    color: #fff;
+
+}
+
+.btn_1 a {
+    color: #fff;
+}
+
+.btn_1 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
