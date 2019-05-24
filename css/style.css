@@ -64,7 +64,6 @@ body {
     line-height: 35px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 144, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
   .section_tittle h1 {
     font-size: 30px;
     line-height: 40px; } }
