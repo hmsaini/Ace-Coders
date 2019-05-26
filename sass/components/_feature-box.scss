@@ -1,0 +1,90 @@
+.fix {
+    overflow: hidden;
+}
+.media-body {
+    width: auto;
+}
+
+.media-right,
+.media>.pull-right {
+    padding-left: 20px;
+}
+
+.media-left,
+.media>.pull-left {
+    padding-right: 20px;
+}
+
+.border-icon {
+    border: 1px solid;
+    border-radius: 50%;
+    color: #50d1c0;
+    font-size: 20px;
+    height: 50px;
+    line-height: 2.7;
+    text-align: center;
+    width: 50px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.active .single-feature .border-icon,
+.single-feature:hover .border-icon {
+    background-color: #50d1c0;
+    color: #ffffff;
+}
+
+.offset-top {
+    margin-top: -100px;
+}
+
+.down-offset {
+    margin-bottom: -100px;
+}
+
+.screen_image {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 83%;
+}
+
+.relative {
+    position: relative;
+}
+
+.feature-area a{
+    text-decoration: none;
+    color: black;
+}
+
+.feature-area a h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.feature-area a p{
+    font-size: 14px;
+}
+
+.tab-content>.tab-pane {
+    display: none;
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+.tab-content>.active {
+    display: block;
+}

@@ -110,4 +110,123 @@
         });
     });
 
+    /* =============================================
+     Animation
+===================================================
+*/
+    // animate on scroll
+    $(function () {
+        new WOW().init();
+    });
+    // home animation on page load
+    $(window).on('load', function () {
+        $("#animate").addClass("animated fadeInDown");
+    });
+    /*==========================================
+    Screen
+    ==========================================
+    */
+    $(function () {
+        $("#screen-list").owlCarousel({
+            items: 5,
+            autoplay: true,
+            smartSpeed: 500,
+            loop: true,
+            autoplayTimeout: 4000,
+            autoplayhoverpause: true,
+            nav: true,
+            dots: false,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            responsive: {
+                // breakpoint from 0 up
+                0: {
+                    items: 1
+                },
+                // breakpoint from 480 up
+                600: {
+                    items: 3
+                },
+                1200: {
+                    items: 5
+                }
+            }
+        });
+    });
+
+  $('.feature-area a').on('mouseenter', function () {
+      $(this).tab('show');
+  });
+
+    $(".feature-area a").on('mouseover', function () {
+         $('.screen_image div').siblings().removeClass('in active');
+         $('.screen_image div').toggleClass('in active');
+
+    });
+
+
+
+
+
+
+
+
+
+
+      var client_photo2 = $('.client_details');
+      client_photo2.owlCarousel({
+          loop: true,
+          margin: 30,
+          autoplay: false,
+          dots: true,
+          autoplayTimeout: 4000,
+          smartSpeed: 600,
+          responsive: {
+              0: {
+                  items: 1
+              },
+              600: {
+                  items: 1
+              },
+              992: {
+                  items: 1
+              }
+          }
+      });
+      // Book List Slider
+      var client_photo = $('.client_photo');
+      client_photo.owlCarousel({
+          loop: true,
+          margin: 30,
+          dots: true,
+          autoplayTimeout: 4000,
+          smartSpeed: 600,
+          mouseDrag: true,
+          touchDrag: false,
+          center: true,
+          responsive: {
+              0: {
+                  items: 1
+              },
+              600: {
+                  items: 3
+              },
+              992: {
+                  items: 3
+              }
+          }
+      });
+      $('.client_nav .testi_next').on('click', function () {
+          client_photo.trigger('next.owl.carousel');
+      });
+      $('.client_nav .testi_prev').on('click', function () {
+          client_photo.trigger('prev.owl.carousel');
+      });
+
+      client_photo.on('translate.owl.carousel', function (property) {
+          $('.client-details-content .owl-dot:eq(' + property.page.index + ')').click();
+      });
+      client_photo2.on('translate.owl.carousel', function (property) {
+          $('.client-photo-list .owl-dot:eq(' + property.page.index + ')').click();
+      });
+
 }(jQuery));
