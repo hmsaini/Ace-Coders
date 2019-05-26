@@ -84,6 +84,12 @@ body {
   font-family: Raleway;
   text-align: center; }
 
+.heading-particle p {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center; }
+
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
   @media only screen and (max-width: 56.25em) {
@@ -484,6 +490,14 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s; }
 
+.img-circle {
+  height: 7.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
 .btn_1 {
   padding: 7px 12px;
   font-size: 14px;
@@ -536,6 +550,10 @@ body {
   width: 50px;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
+
+.border-icon span i {
+  font-size: 28px;
+  text-align: center; }
 
 .active .single-feature .border-icon,
 .single-feature:hover .border-icon {
@@ -975,6 +993,11 @@ ul.social-list li a {
   border-radius: 50%;
   transition: all .4s linear; }
 
+ul.social-list li a i {
+  font-size: 2rem;
+  text-align: center;
+  margin: 7px 0; }
+
 ul.social-list li:nth-child(1) a:hover {
   background-color: #3b5998;
   border-color: transparent; }
@@ -1263,12 +1286,66 @@ slider buttons
   background-color: #50d1c0;
   color: #fff; }
 
+/*
+==============================================
+testimonials
+=============================================
+*/
+#testimonials {
+  background: #f4f4f4;
+  padding-bottom: 4.5rem;
+  overflow: visible;
+  padding: 2rem 0 2rem 0; }
+
+#testimonials .vertical-heading {
+  padding: 8rem 0;
+  margin-bottom: 5rem; }
+
+#testimonial-slider {
+  background: #3e3e70;
+  top: -12rem;
+  padding-bottom: 2rem; }
+
+@media only screen and (max-width: 68.75em) {
+  #testimonial-slider {
+    top: -9rem; } }
+
+.testimonial .row {
+  margin-bottom: 2.5rem; }
+
+.testimonial {
+  padding: 2rem 4.5rem 0 4.5rem;
+  color: #fff; }
+
+.testimonial h3 {
+  font-size: 3.2rem;
+  line-height: 3.5rem; }
+
+.testimonial .stars {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0; }
+
+.testimonial p {
+  line-height: normal;
+  margin: 0;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+  font-size: 1.52rem; }
+
+.author .author-name-des {
+  width: 10.6rem;
+  margin-top: 2.5rem;
+  text-align: left; }
+
+.author .author-name-des p {
+  margin: 0; }
+
 #team {
   padding: 12rem 0;
   background-color: #fff; }
 
 #stats {
-  padding: 15rem 0 12rem 0; }
+  padding: 15rem 0 18rem 0; }
 
 .earth {
   padding: 12rem 0;

@@ -1,0 +1,66 @@
+/*
+==============================================
+testimonials
+=============================================
+*/
+#testimonials {
+    background: #f4f4f4;
+    padding-bottom: 4.5rem;
+    overflow: visible;
+    padding: 2rem 0 2rem 0;
+}
+
+#testimonials .vertical-heading {
+    padding: 8rem 0;
+    margin-bottom: 5rem;
+}
+
+#testimonial-slider {
+    background: rgb(62, 62, 112);;
+    top: -12rem;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 68.75em) {
+    #testimonial-slider {
+        top: -9rem;
+    }
+}
+
+.testimonial .row {
+    margin-bottom: 2.5rem;
+}
+
+.testimonial {
+    padding: 2rem 4.5rem 0 4.5rem;
+    color: #fff;
+}
+
+.testimonial h3 {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+}
+
+.testimonial .stars {
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.testimonial p {
+    line-height: normal;
+    margin: 0;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    font-size: 1.52rem;
+}
+
+.author .author-name-des {
+    width: 10.6rem;
+    margin-top: 2.5rem;
+    text-align: left;
+}
+
+.author .author-name-des p {
+    margin: 0;
+}
+

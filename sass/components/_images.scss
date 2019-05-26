@@ -14,3 +14,12 @@
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
+
+.img-circle{
+    height: 7.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

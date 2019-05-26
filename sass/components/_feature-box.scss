@@ -28,6 +28,11 @@
     transition: 0.3s;
 }
 
+.border-icon span i{
+    font-size: 28px;
+    text-align: center;
+}
+
 .active .single-feature .border-icon,
 .single-feature:hover .border-icon {
     background-color: #50d1c0;

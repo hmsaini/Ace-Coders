@@ -157,13 +157,11 @@
       $(this).tab('show');
   });
 
-    $(".feature-area a").on('mouseover', function () {
-         $('.screen_image div').siblings().removeClass('in active');
-         $('.screen_image div').toggleClass('in active');
+    // $(".feature-area a").on('mouseover', function () {
+    //      $('.screen_image div').siblings().removeClass('in active');
+    //      $('.screen_image div').toggleClass('in active');
 
-    });
-
-
+    // });
 
 
 
@@ -172,61 +170,22 @@
 
 
 
-      var client_photo2 = $('.client_details');
-      client_photo2.owlCarousel({
-          loop: true,
-          margin: 30,
-          autoplay: false,
-          dots: true,
-          autoplayTimeout: 4000,
-          smartSpeed: 600,
-          responsive: {
-              0: {
-                  items: 1
-              },
-              600: {
-                  items: 1
-              },
-              992: {
-                  items: 1
-              }
-          }
-      });
-      // Book List Slider
-      var client_photo = $('.client_photo');
-      client_photo.owlCarousel({
-          loop: true,
-          margin: 30,
-          dots: true,
-          autoplayTimeout: 4000,
-          smartSpeed: 600,
-          mouseDrag: true,
-          touchDrag: false,
-          center: true,
-          responsive: {
-              0: {
-                  items: 1
-              },
-              600: {
-                  items: 3
-              },
-              992: {
-                  items: 3
-              }
-          }
-      });
-      $('.client_nav .testi_next').on('click', function () {
-          client_photo.trigger('next.owl.carousel');
-      });
-      $('.client_nav .testi_prev').on('click', function () {
-          client_photo.trigger('prev.owl.carousel');
-      });
 
-      client_photo.on('translate.owl.carousel', function (property) {
-          $('.client-details-content .owl-dot:eq(' + property.page.index + ')').click();
-      });
-      client_photo2.on('translate.owl.carousel', function (property) {
-          $('.client-photo-list .owl-dot:eq(' + property.page.index + ')').click();
-      });
 
+     /* =============================================
+     testimonials
+===================================================
+*/
+     $(function () {
+         $("#testimonial-slider").owlCarousel({
+             items: 1,
+             autoplay: true,
+             smartSpeed: 700,
+             loop: true,
+             autoplayhoverpause: true,
+             nav: true,
+             dots: true,
+            //  navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+         });
+     });
 }(jQuery));

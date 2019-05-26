@@ -70,6 +70,12 @@ ul.social-list li a {
     transition: all .4s linear;
 }
 
+ul.social-list li a i{
+    font-size: 2rem;
+    text-align: center;
+    margin: 7px 0;
+}
+
 ul.social-list li:nth-child(1) a:hover {
     background-color: #3b5998;
     border-color: transparent;
