@@ -157,12 +157,16 @@
       $(this).tab('show');
   });
 
-    // $(".feature-area a").on('mouseover', function () {
-    //      $('.screen_image div').siblings().removeClass('in active');
-    //      $('.screen_image div').toggleClass('in active');
+    $(".media").on('mouseover', function () {
+        //  $(this).siblings().removeClass('in active');
+        //  $(this).toggleClass('in active');
+    });
 
-    // });
+    // $('.screen_image div').on('mouseover',function(){
+    //     $(this).siblings().removeClass('active');
+    //     $(this).toggleClass('active');
 
+    // })
 
 
 
