@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+.navbar-toggler-icon{
+    font-size: 24px;
+}
+
 .main_menu .navbar .navbar-toggler {
     border: 0px solid transparent;
 }
@@ -19,7 +23,7 @@
 
     .main_menu .navbar .main-menu-item .navbar-nav {
         margin-left: 0%;
-        background-color: #bd9f5a;
+        background-color: rgb(135, 144, 238);
     }
 }
 
@@ -55,7 +59,7 @@
     .main_menu .navbar .main-menu-item .navbar-nav a {
         padding: 10px 22px;
         color: #fff;
-        background-color: #bd9c50;
+        background-color: rgba(27, 49, 173, 0.95);
         margin-bottom: 2px;
     }
 }
@@ -65,7 +69,7 @@
     .main_menu .navbar .main-menu-item .navbar-nav a {
         padding: 15px 22px;
         color: #fff;
-        background-color: #bd9c50;
+        background-color: rgba(27, 49, 173, 0.95);
         margin-bottom: 2px;
     }
 }
@@ -75,7 +79,7 @@
     .main_menu .navbar .main-menu-item .navbar-nav a {
         padding: 15px 22px;
         color: #fff;
-        background-color: #bd9c50;
+        background-color: rgba(27, 49, 173, 0.95);
         margin-bottom: 2px;
     }
 }
@@ -139,7 +143,7 @@
 
     .dropdown-menu {
         border: 0px solid rgba(0, 0, 0, 0.15) !important;
-        background-color: #bd9c50;
+        background-color: rgba(5, 153, 210, 0.95);
     }
 
     .dropdown .dropdown-menu {

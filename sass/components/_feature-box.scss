@@ -45,6 +45,10 @@
 
 .down-offset {
     margin-bottom: -100px;
+
+    @media(max-width:767px){
+       margin-bottom: 0px;
+    }
 }
 
 .screen_image {

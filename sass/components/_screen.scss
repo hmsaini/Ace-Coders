@@ -37,6 +37,14 @@
 
 .screen img {
     display: inline-block !important;
+
+    @media(max-width:767px){
+         -webkit-transform: scale(0.9);
+         transform: scale(0.9);
+         -moz-transform: scale(0.9);
+         -ms-transform: scale(0.9);
+         -o-transform: scale(0.9);
+}
 }
 
 #screen-list>div.owl-nav>button.owl-prev

@@ -32,4 +32,14 @@
 
 .space-80 {
     height: 80px;
+
+    @media(max-width:767px){
+        height: 20px;
+    }
+}
+
+.space-mobile{
+    @media(max-width:767px){
+        margin-top: 60px;
+    }
 }
